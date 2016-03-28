@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+	<head>
+	</head>
+	<Scene>
+		<Transform scale='1.0 1.0 1.0'>
+		<Shape>
+			<IndexedFaceSet
+				coordIndex='
+					0   1   2   3   4   5  -1
+					6   7   1   0  -1
+					1   7   8   2  -1
+					8   9   3   2  -1
+					9  10   4   3  -1
+				 10  11   5   4  -1
+					0   5  11   6  -1
+				 11 10   9   8   7   6  -1'
+				solid='true'
+				creaseAngle='1.57'
+				texCoordIndex=' 0 1 2 3 4 5 -1
+				6 7 8 9 -1
+				9 6 10 11 -1
+				6 12 13 9 -1
+				11 9 6 10 -1
+				8 9 6 7 -1
+				6 7 8 9 -1
+				0 1 2 3 4 5 -1'
+			>
+				<Coordinate point= '
+					0     0     0,
+					0     3.2   0,
+					0.6   3.7   0,
+					2.4   3.7   0,
+					3     3.2   0,
+					3     0     0,
+					0     0     15,
+					0     3.2   15,
+					0.6   3.7   15,
+					2.4   3.7   15,
+					3     3.2   15,
+					3     0     15'
+				/>
+				<TextureCoordinate point='
+                                0.92 0.0
+                                0.92 0.86
+                                0.76 1.0
+                                0.28 1.0
+                                0.08 0.86
+                                0.08 0.0
+                                1.0 0.0
+                                1.0 0.21
+                                0.0 0.21
+                                0.0 0.0
+                                1.0 0.05
+                                0.0 0.05
+                                1.0 0.12
+                                0.0 0.12
+                                '/>
+			</IndexedFaceSet>
+			<Appearance>
+				<Material/>
+				<ImageTexture url='"train.png"'/>
+			</Appearance>
+		</Shape>
+		</Transform>
+ </Scene>
+</X3D>
