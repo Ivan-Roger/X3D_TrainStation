@@ -60,7 +60,7 @@
 			</IndexedFaceSet>
 			<Appearance>
 				<Material/>
-				<ImageTexture url='"train.png"'/>
+				<ImageTexture url='"FleurDeLis.jpg"'/>
 			</Appearance>
 		</Shape>
 		</Transform>
